@@ -1,0 +1,8 @@
+scikit-learn==1.2.2
+hdbscan>=0.8.31
+edlib
+NanoFilt
+matplotlib
+xmltodict
+sankeyflow
+requests
