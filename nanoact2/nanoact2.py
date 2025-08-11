@@ -2347,7 +2347,7 @@ class NanoAct:
         check_both_directions: bool = True,
         reverse_complement_rv_col: bool = True,
         search_range: int = 200
-    ) -> None:
+    ) -> str:
         """
         Wrapper to trim reads by either 'case' or 'table' mode.
         'case': trim using labeled sequence patterns.
@@ -2387,6 +2387,7 @@ class NanoAct:
             )
         else:
             raise ValueError("mode must be either 'case' or 'table'")
+        return des
     def blast(
         self,
         src: str,
