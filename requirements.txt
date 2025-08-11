@@ -1,8 +1,9 @@
-scikit-learn==1.2.2
-hdbscan>=0.8.31
-edlib
-NanoFilt
-matplotlib
-xmltodict
-sankeyflow
-requests
+scikit-learn==1.6.1
+hdbscan==0.8.40
+edlib==1.3.9.post1
+NanoFilt==2.8.0
+matplotlib==3.10.0
+xmltodict==0.14.2
+sankeyflow==0.4.1
+requests==2.32.3
+numpy==2.0.2
